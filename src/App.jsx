@@ -14,7 +14,7 @@ export default function App() {
     <div className='w-full min-h-screen overflow-y-hidden'>
       <Nav />
       <Routes>
-        <Route path="/ipu-result" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/result" element={<Result />} />
         <Route path="/study-resources" element={<StudyResources />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
